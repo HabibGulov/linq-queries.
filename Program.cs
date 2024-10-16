@@ -325,7 +325,7 @@ DataContext context = new DataContext();
 //27
 // var users = from u in context.Users
 //     join o in context.Orders on u.Id equals o.UserId
-//     where o.TotalAmount > 300 && o.OrderDate > DateTime.UtcNow.AddYears(-1)
+//     where o.TotalAmount > 400 && o.OrderDate > DateTime.UtcNow.AddYears(-1)
 //     select u.Username;
 // foreach (var u in users)
 // {
